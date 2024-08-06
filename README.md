@@ -64,3 +64,9 @@ There should be some rudimentary scripts for building your project's code in an 
 
 ```run.sh```
 An optional script used to run your executable code, either with or without command-line arguments.
+
+# Examples
+
+![Spinning Example 1](data/spinning-chelsea.gif "Spinning Chelsea")
+
+![Spinning Example 1](data/teapot512-spinning.gif "Spinning Kettle")

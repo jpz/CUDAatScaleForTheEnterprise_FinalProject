@@ -27,6 +27,6 @@ trap cleanup EXIT
 cd "$WORK_DIR"
 "$SCRIPT_DIR/rotateNPP" -input "$filename"
 FILENAME_NO_SUFFIX="${filename%.*}"
-OUTFILE="$OUTPUT_DIR/$(basename $FILENAME_NO_SUFFIX).gif"
+OUTFILE="$OUTPUT_DIR/$(basename $FILENAME_NO_SUFFIX)-spinning.gif"
 
 convert -delay 5 -loop 0 rotation_*.pgm $OUTFILE

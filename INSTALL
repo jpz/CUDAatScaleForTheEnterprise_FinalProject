@@ -1,4 +1,10 @@
 
+Ensure that the following are installed:
+
+1) NVIDIA CUDA SDK
+2) FreeImage SDK
+3) ImageMagick tools
+
 Change directory to the src directory.
 
 Run `make`, this will produce ./bin/rotateNPP executable.

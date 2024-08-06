@@ -34,6 +34,10 @@ Last of all, we measure how far away this red dot is from the centre, and we set
 
 ```bin/```
 
+`./generate_rotated_image.sh` - generates a spinning GIF from another image. Note the images must be greyscale 256 colours, and it should not be a gif itself.
+
+`./rotateNPP` - the executable which genertes the image rotations.
+
 ```data/```
 
 The data directory contains some examples of rotating gifs and their original sources.
